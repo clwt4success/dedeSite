@@ -1,0 +1,72 @@
+body
+{
+   font-family: sans-serif;
+   background: #420600 url('/images/bg-texture.jpg') repeat;
+     padding-top: 80px;
+  font-family:helvetica; 
+  background-color:#ecf0f1; 
+
+}
+*, *:after, *:before {
+  box-sizing: border-box; 
+}
+.menu-items {
+  width: 100%; 
+  padding: 50px 30px; 
+}
+
+.menu-item-body {
+  float: left; 
+  position: relative;
+  overflow-x: hidden;
+  padding-left: 25px;
+  margin: 0 1%; 
+  width: 31%; 
+}
+.number {
+  position: absolute;
+  left: 0;
+}
+.name {
+  background-color: #fff; 
+}
+
+.name:after {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . " ". . . . . . . . . . . . . . . . . . . . ";
+}
+.price {
+  padding-left: 5px;
+  float: right !important;
+  background-color: #fff;
+}
+.description {
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+
+
+h3.text-muted{
+
+  color:#FAF3BC;}
+
+
+
+  h3.page-header{
+
+color:#FAF3BC;
+
+  }
+
+
+
+  a{
+
+
+  	color:#FAF3BC;;
+  }

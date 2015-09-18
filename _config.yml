@@ -1,0 +1,12 @@
+# Site settings
+title: DeDe's Amazing Cakes. 
+email: dede@dedeamamzingcakes.com
+description: Visit DeDeAmazingcakes.com for information about DeDe's Amazing Cakes Company. Place an order with me.
+baseurl: "/dedeSite" # the subpath of your site, e.g. /blog/
+url: "http://dedeamazingcakes.com" # the base hostname & protocol for your site
+twitter_username: 
+github_username: 
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,149 @@
+
+
+body {
+  font-family: "Libre Baskerville", serif, sans-serif;
+   background: #420600 url('/images/bg-texture.jpg') repeat;
+     padding-top: 80px;
+
+}
+
+
+
+
+
+
+.navbar.navbar-inverse.navbar-fixed-top{
+background-color:#FAF3BC;
+
+}
+
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  page-break-after: always;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+/************************
+Porfolio Page
+************************/
+#gallery {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  list-style: none;
+}
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #FFFFFF;
+  color: #bdc3c7;
+  -webkit-transition: all 500ms ease-in-out 300ms;
+  -moz-transition: all 500ms ease-in-out 300ms;
+  -ms-transition: all 500ms ease-in-out 300ms;
+  -o-transition: all 500ms ease-in-out 300ms;
+  transition: all 500ms ease-in-out 300ms;
+}
+#gallery li:hover {
+  -webkit-box-shadow: 4px 4px 4px 4px #545454;
+  box-shadow: 4px 4px 4px 4px #545454;
+  -moz-transform: scale(1.1) rotate(20deg);
+  -webkit-transform: scale(1.1) rotate(20deg);
+  -o-transform: scale(1.1) rotate(20deg);
+  -ms-transform: scale(1.1) rotate(20deg);
+  transform: scale(1.1) rotate(20deg);
+}
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 1em;
+  color: #7AADDA;
+  background: none;
+}
+
+.spoiler p {
+  min-height: 40px;
+  color: #378AD7;
+}
+
+/*Lightbox*/
+#overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  text-align: center;
+  background-repeat: repeat;
+}
+#overlay p {
+  color: #FFFFFF;
+}
+#overlay img {
+  max-width: 75%;
+  max-height: 75%;
+  padding-top: 10%;
+}
+button.button{
+
+display:none;
+
+}
+/***********************
+Media Queries
+***********************/
+@media screen and (max-width: 660px) {
+  #gallery li {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 660px) {
+  #gallery {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 2.5%;
+    padding: 0 2.5%;
+  }
+  #gallery li {
+    clear: none;
+    width: 28.333%;
+  }
+}
+
+
+.navbar.navbar-inverse.navbar-fixed-top{
+background-color:#FAF3BC;
+
+}
+.navbar-inverse .navbar-nav>.active>a{
+background-color:#420600;
+}
+
+h3.text-muted{
+
+  color:#FAF3BC;}
+
+  a{
+
+
+    color:#FAF3BC;;
+  }
+
+
